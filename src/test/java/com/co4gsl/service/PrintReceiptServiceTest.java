@@ -25,14 +25,14 @@ import static org.junit.Assert.assertNotNull;
  * Created by rpayal on 20/12/2016.
  */
 @RunWith(Parameterized.class)
-public class PrintReceiptTest {
+public class PrintReceiptServiceTest {
     private List<Item> itemList;
     private BigDecimal saleTax = BigDecimal.ZERO;
     private BigDecimal totalCost = BigDecimal.ZERO;
 
-    private IPrintReceipt printReceipt;
+    private IPrintReceiptService printReceipt;
 
-    public PrintReceiptTest(List<Item> itemList, BigDecimal saleTax, BigDecimal totalCost) {
+    public PrintReceiptServiceTest(List<Item> itemList, BigDecimal saleTax, BigDecimal totalCost) {
         this.itemList = itemList;
         this.saleTax = saleTax;
         this.totalCost = totalCost;
@@ -40,7 +40,7 @@ public class PrintReceiptTest {
 
     @Before
     public void setup() {
-        printReceipt = InjectorFactory.getInjector().getInstance(IPrintReceipt.class);
+        printReceipt = InjectorFactory.getInjector().getInstance(IPrintReceiptService.class);
     }
 
     @Parameterized.Parameters

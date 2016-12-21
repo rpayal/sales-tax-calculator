@@ -9,11 +9,11 @@ import java.math.BigDecimal;
 /**
  * Created by rpayal on 20/12/2016.
  */
-public class PrintReceipt implements IPrintReceipt {
+public class PrintReceiptServiceService implements IPrintReceiptService {
     private final ISalesTaxCalculator salesTaxCalculator;
 
     @Inject
-    public PrintReceipt(ISalesTaxCalculator salesTaxCalculator) {
+    public PrintReceiptServiceService(ISalesTaxCalculator salesTaxCalculator) {
         this.salesTaxCalculator = salesTaxCalculator;
     }
 
