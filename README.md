@@ -15,25 +15,25 @@ We expect you to provide a working solution to the problem, at least for the sce
 
 ##Examples
 ###Input: 
-one book at 29.49 
-one music CD at 15.99 
+one book at 29.49  
+one music CD at 15.99  
 one chocolate snack at 0.75
-Output: 
-1 book: 34.69 
-1 music CD: 20.04 
-1 chocolate snack: 0.90 
-Sales Taxes: 9.40 
-Total: 55.63
+###Output:  
+1 book: 34.69  
+1 music CD: 20.04  
+1 chocolate snack: 0.90  
+Sales Taxes: 9.40  
+Total: 55.63  
 
 ###Input: 
-one bottle of wine at 20.99 
-one box of tooth ache pills at 4.15 
-one box of pins at 11.25 
+one bottle of wine at 20.99  
+one box of tooth ache pills at 4.15  
+one box of pins at 11.25  
 one music CD at 14.99
-Output: 
-1 bottle of wine: 24.69 
-1 box of headache pills: 4.15 
-1 box of pins: 13.25 
-1 music CD: 18.99 
-Sales Taxes: 9.60 
+###Output: 
+1 bottle of wine: 24.69  
+1 box of headache pills: 4.15  
+1 box of pins: 13.25  
+1 music CD: 18.99  
+Sales Taxes: 9.60  
 Total: 60.98
